@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sistema Cat & Dog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+    <style>
+        .especificacao option, input, select {
+    font-family: 'League Spartan', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+    </style>
+    <script src="script.js" defer></script>
+
+</head>
+
+    <body>
+
+        <section class="Cabecalho" id="header">  
+            <nav class="menu">
+                <div id="logo">
+                    <img src="_Logo.png"/>
+                </div>
+                <section class="abas">             
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="adote.html">adote</a></li>
+                        <li><a href="cadastroPet.html">cadastre um pet</a></li>
+                        <li><a href="denuncie.html">denuncie</a></li>
+                    </ul> 
+                </section>
+            </nav>
+        </section>
+            <main>    
+                <section class="login">
+                   
+                    <div class="caixa-form"> 
+                        
+                        <h1>Olá, seja&nbsp;<span>bem-vindo!</span></h1>
+                        <form id="loginForm">
+                            <input type="text" id="username" placeholder="usuário" required/>
+                            <input type="password" id="password" placeholder="senha" required>
+                            <button type="button" onclick="login()">login</button>
+                            <button>Continue com Gmail</button> 
+                            <div class="sem-conta">
+                                <p>não tem uma conta?</p><a href="cadastro.html"><p id="cadastro-button">Cadastre-se</p></a> 
+                            </div>
+                        </form> 
+                    </div>
+                </section> 
+                <footer>
+                    <div class="parte1">
+                        <div class="newsletter">
+                            <h1>NEWSLETTER</h1>
+                            <p>Cadastre seu e-mail e receba novidades</p>
+                            <div class="email">
+                                <input type="email" placeholder="Digite seu e-mail"/>
+                                <input type="submit"/>
+                            </div>
+                        </div>
+                        <div class="contato">
+                           <h1>CONTATO</h1>
+                            <p>@caoegato</p>
+                            <p>Cão e Gato</p>
+                            <p>suporte@caoegato.com</p> 
+                        </div>
+                        <div class="mapa">
+                            <div class="mapa1">
+                                <h1>MAPA DO SITE</h1>
+                                <a href="index.html"><p>Home</p></a>
+                                <a href="login.html"><p>Login</p></a>
+                                <a href="adote.html"><p>Adote</p></a>
+                            </div> 
+                            <div class="mapa2">
+                                <a href="cadastro.html"><p>Cadastro</p></a>
+                                <a href="denuncie.html"><p>Denuncie</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer> 
+            </main>

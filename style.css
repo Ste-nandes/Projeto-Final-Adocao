@@ -1,0 +1,564 @@
+*{
+
+    font-size: 18px;
+    
+    font-family: 'Montserrat';
+    
+    border: none;
+    
+    outline: none;
+    
+    text-decoration: none;
+    
+    }
+        
+        
+        /*cabeçalho padrão*/
+        
+        section.sticky{
+            position: fixed;
+            width: 100%;
+            background-color: white;
+            margin-bottom: 50px;
+            z-index: 9;
+            top: 0;
+            left: 0;
+            -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                    animation: fade-in-fwd 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        }
+        
+        #header .logo img.sticky {
+            width: 60px;
+            
+        }
+        
+        .sticky + .content {
+            padding-top: 102px;
+        }
+        
+        body{
+            background-color: #f9f3EA;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .menu{
+            background-color: #0c1956;
+            padding: 32px;
+        }
+        
+        .menu li{
+            float: left;
+            margin-top: 40px;
+        }
+        
+        nav.menu img {
+            padding: 0 10px 10px 10px;
+        }
+        
+        .menu li a{
+            color: white;
+            border-radius: 6px;
+            margin-right: 30px;
+            text-decoration: none;
+            padding: 8px;
+            font-family: 'Montserrat';
+            display: flex;
+        }
+
+        .menu li a:hover {
+            background-image: linear-gradient(90deg, #0c2488, rgb(39, 60, 255));
+        }
+
+        a{
+            text-decoration: none;
+        }
+        
+        li{
+            display: block;
+        }
+        
+        .menu img{
+        float: left;
+        margin-left: 30px;
+        width: 88px;
+        display: block;
+        margin-top: 30px;
+        }
+        
+        #logo img{
+            -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        }
+        
+        div.redes img {
+            width: 50px;
+        }
+        
+        .menu {
+            background-color: #0c1956;
+            display: flex;
+            gap: 25vw;
+        }
+
+        /*footer*/
+        .parte1 {
+            display: flex;
+            gap: 6%;
+            justify-content: center;
+            align-items: center;
+            background-color: #0c1956;
+            color: #f9f3ea;
+        }
+
+        .mapa {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        div.mapa1 p {
+            color: #f9f3ea;
+            width: 60px;
+        }
+        
+        div.mapa2 p {
+            color: #f9f3ea;
+        }
+        
+        .email input[type="submit"] {
+            width: 6vw;
+        }
+        .email input[type="email"] {
+            width: 16vw;
+        }
+
+        .email input[type="submit"]:hover {
+            background-image: linear-gradient(90deg, #0c2488, rgb(39, 60, 255));
+            color: #f9f3ea;
+        }
+        
+        .email {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        div.mapa1 p:hover{
+            background-image: linear-gradient(90deg, #0c2488, rgb(39, 60, 255));
+        }
+
+        div.mapa2 p:hover {
+            background-image: linear-gradient(90deg, #0c2488, rgb(39, 60, 255));
+        }
+        
+        .compromisso img {
+            width: 23vh;
+            display: flex;
+        }
+
+        .compromisso-img {
+            display: flex;
+            justify-content: center;
+        }
+
+        .textos-adote {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 20vw;
+        }
+
+        .textos-adote h1 {
+            font-size: 33.4px;
+        }
+
+        .textos-adote h2 {
+            font-size: 15px;
+        }
+
+        .textos-adote h3 {
+            font-size: 33.4px;
+        }
+
+        
+
+        /*home*/
+        
+        .home h1{
+            font-size: 33.4px;
+            
+        }
+
+        .home h2{
+            font-size: 15px;
+            font-family: 'League Spartan', sans-serif;
+        
+        }
+
+        .home h3{
+            font-size: 15px;
+            font-family: 'montserrat';
+        }
+        
+        section.home {
+            display: flex;
+            flex-direction: row;
+            margin: 6vw;
+            -webkit-animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            align-items: center;
+        }
+        
+        section.home div.frases {
+            display: flex;
+            padding: 5%;
+            margin: 0 0 0 10vw;
+            align-content: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        section.home div.frases h1,section.home div.frases h2 {
+            text-align: left;
+            font-family: 'Montserrat';
+        }
+        
+        section.login div.botao{
+           align-items: center;
+        }
+        
+        div.frases {
+            align-items: center;
+        }
+        
+        div.frases button {
+            background-color: #0c1956;
+            color: white;
+            font-family: 'Montserrat';
+            font-style: italic;
+        }
+        
+        div.frases button:hover {
+            background-image: linear-gradient(90deg, #0c2488, rgb(39, 60, 255));
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
+        
+        section.home2{
+            background-color: #EBDDD7;
+            display: flex;
+            flex-direction: row;
+            -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            padding: 2vh 0 2vh 25vw;
+        } 
+        
+        .frase-natal {
+            padding: 6vw 6vw 6vw 0;
+        }
+        
+        .frase-natal span {
+            font-size: 33.4px;
+            font-weight: 400;
+        }
+
+        h1#frase1 span {
+            color: black;
+            font-weight: 400;
+        }
+
+        .frase-natal h1 {
+            font-size: 33.4px;
+            font-family: 'Montserrat';
+            margin: 0 35vw 2vh 0;
+        }
+        
+        .frase-natal p {
+            font-size: 15px;
+            font-family: 'Montserrat';
+            margin: 0 43% 0 0;
+        }
+        section.home div.frases h1 span, section.home div.frases h2 span {
+            font-size: 36.4px;
+            font-weight: bolder;
+            font-family: 'Montserrat';
+            color: #0C1956;
+        }
+        
+        .titulo-3 h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 35.4px;
+            font-family: 'Montserrat';
+            font-style: italic;
+        }
+        
+        .novos-pets img {
+            width: 22%;
+        }
+        
+        .home3{
+            -webkit-animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-bck-left 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        .novos-pets {
+            display: flex;
+            justify-content: center;
+            gap: 4vw;
+            margin: 0 0 3% 0;
+        }
+        
+        .dog-1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .novos-pets img {
+            width: 22vh;
+        }
+
+        .dog-desc h1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .dog-desc button {
+            display: flex;
+            background-color: #0c1956;
+            color: #f9f3ea;
+            border-radius: 12px;
+            width: 5vw;
+            justify-content: center;
+            margin: 1px auto;
+        }
+
+        .dog-desc button:hover{
+            background-image: linear-gradient(90deg, #0c2488, rgb(39, 60, 255));
+        }
+
+        .textos-adote h1 {
+            font-size: 33.4px;
+            margin: 0 20vw;
+        }
+
+        .textos-adote h3 {
+            font-size: 33.4px;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        /*login e cadastro*/
+
+        .caixa-form {
+            margin: 14vw;
+            -webkit-animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        .sem-conta {
+            display: flex;
+            gap: 6px;
+        }
+
+        form#loginForm {
+            padding: 6vw 1vw;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-right: 15vw;
+        }
+
+        .caixa-form {
+            margin: 6vw;
+            background-image: url(cachorro-login.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 40vw;
+        }
+
+        .caixa-form h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 33.4px;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        section.login span {
+            font-family: 'Montserrat';
+            font-size: 33.4px;
+            font-weight: bold;
+            color: #0c2488;
+        }
+       
+        #loginForm button {
+            border-radius: 30px;
+            width: 25%;
+            margin: 6px;
+            background-color: #0c1956;
+            color: #f9f3ea;
+            padding: 1%;
+        }
+
+        .especificacao option, input, select {
+            font-family: 'montserrat';
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            width: 23%;
+            margin: 6px;
+        }
+
+        #loginForm input {
+            padding: 1%;
+            border-radius: 30px;
+        }
+
+        p#cadastro-button:hover {
+            text-decoration: underline;
+        }
+
+        p#login-button:hover {
+            text-decoration: underline;
+        }
+
+        section.cadastro {
+            display: flex;
+            margin: 8%;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #loginForm button:hover {
+            background-image: linear-gradient(90deg, #0c2488, rgb(39, 60, 255));
+        }
+         
+         /*adote*/
+
+         section.adocao{
+            -webkit-animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+         }
+
+         section.adote{
+            -webkit-animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+         }
+        
+        .col-lg-4 .btn-secondary {
+            color: black;
+            background-color: white;
+            border: none;
+            border-radius: 23px;
+            padding: 13px;
+            font-family: 'League Spartan';
+        }
+        
+        .col-lg-4 .btn-secondary:hover{
+            border: 1px solid linear-gradient(90deg, rgb(255, 223, 88), orange);
+            background-image: linear-gradient(90deg, rgb(255, 223, 88), orange);
+            transition: all 0.5s ease;
+            font-size: 17px;
+        }
+        
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 18px;
+        }
+
+        .opcoes-adote {
+            display: flex;
+            width: 46vw;
+            gap: 18px;
+        }
+
+        section.filtros {
+            display: flex;
+            justify-content: center;
+            background-color: #ebddd7;
+            padding: 2vw;
+            box-shadow: 1px 3px 8px black;
+        }
+        
+        img.bd-placeholder-img.rounded-circle {
+            width: 22vh;
+            height: 22vh;
+        }
+
+        a.btn.btn-secondary {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 5vw;
+            margin: 0 22%;
+        }
+
+        .dog-desc {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .dog-desc button:hover {
+            background-color: #0C2488;
+            cursor: pointer;
+        }
+
+        div.frases button:hover {
+            background-color: #0C2488;
+        }
+
+        /*denuncie*/
+        
+        section.parteA { 
+            animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            display: flex;
+            flex-direction: row;
+            margin: 7vw;
+            justify-content: center;
+        }
+
+        .texto1-denuncia {
+            display: flex;
+            width: 35%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+        }
+
+        h1#frase1 {
+            font-size: 33.4px;
+            color: #0C1956;
+        }
+
+        .texto1-denuncia h2 {
+            font-size: 15px;
+        }
+        
+        /*Cadastro do pet*/
+       
+        #loginForm select {
+            padding: 8px;
+            border-radius: 30px;
+            width: 25%;
+        }
+        
+        /*Links animações*/
+        
+         @-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+         @-webkit-keyframes slide-in-bck-left{0%{-webkit-transform:translateZ(700px) translateX(-400px);transform:translateZ(700px) translateX(-400px);opacity:0}100%{-webkit-transform:translateZ(0) translateX(0);transform:translateZ(0) translateX(0);opacity:1}}@keyframes slide-in-bck-left{0%{-webkit-transform:translateZ(700px) translateX(-400px);transform:translateZ(700px) translateX(-400px);opacity:0}100%{-webkit-transform:translateZ(0) translateX(0);transform:translateZ(0) translateX(0);opacity:1}}
+         @-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+         @-webkit-keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}@keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}
+         @-webkit-keyframes shadow-drop-center{0%{-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}@keyframes shadow-drop-center{0%{-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
+         @-webkit-keyframes fade-in-fwd{0%{-webkit-transform:translateZ(-80px);transform:translateZ(-80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}@keyframes fade-in-fwd{0%{-webkit-transform:translateZ(-80px);transform:translateZ(-80px);opacity:0}100%{-webkit-transform:translateZ(0);transform:translateZ(0);opacity:1}}
+        @-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+        @-webkit-keyframes text-shadow-drop-bl{0%{text-shadow:0 0 0 transparent}100%{text-shadow:-6px 6px 18px rgba(0,0,0,.35)}}@keyframes text-shadow-drop-bl{0%{text-shadow:0 0 0 transparent}100%{text-shadow:-6px 6px 18px rgba(0,0,0,.35)}}
+        @-webkit-keyframes shadow-drop-center{0%{-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}@keyframes shadow-drop-center{0%{-webkit-box-shadow:0 0 0 0 transparent;box-shadow:0 0 0 0 transparent}100%{-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,.35);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
+        @-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}
